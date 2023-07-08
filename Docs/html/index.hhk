@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a1c49e14711dc55680d304ca497c0c0c7"><param name="Name" value="BlogListViewModel_Author"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a27ca81d5515cf33db0df54c61f580231"><param name="Name" value="BlogListViewModel_Tags"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#ae513badaa521c975598e76b1d24af474"><param name="Name" value="BuildTargetModel(ModelBuilder modelBuilder)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#ae513badaa521c975598e76b1d24af474"><param name="Name" value="DB::Migrations::addProjects"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#a267eaca67e781ab2b71e508badeedda0"><param name="Name" value="BuildTargetModel(ModelBuilder modelBuilder)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#a267eaca67e781ab2b71e508badeedda0"><param name="Name" value="DB::Migrations::initial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_comment_documention.html"><param name="Name" value="CommentDocumention"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_comment_documention_1_1_controllers.html"><param name="Name" value="CommentDocumention::Controllers"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_controllers_1_1_index_controller.html"><param name="Name" value="CommentDocumention::Controllers::IndexController"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_comment_documention_1_1_dependency_injection.html"><param name="Name" value="CommentDocumention::DependencyInjection"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_dependency_injection_1_1_app_mapping_config.html"><param name="Name" value="CommentDocumention::DependencyInjection::AppMappingConfig"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_comment_documention_1_1_localization.html"><param name="Name" value="CommentDocumention::Localization"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a1c49e14711dc55680d304ca497c0c0c7"><param name="Name" value="BlogListViewModel_Author"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a27ca81d5515cf33db0df54c61f580231"><param name="Name" value="BlogListViewModel_Tags"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a0907f320ec6889e6a8ab3beed01b4580"><param name="Name" value="Culture"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a46b0749e6d1a7093bbcfad0cc8c4dd09"><param name="Name" value="General_CreationDate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a5007a6f0b664d90a33b7e28868700268"><param name="Name" value="General_Description"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a055fc291e043079650f74d2e6d7bec54"><param name="Name" value="General_PublishDate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a3087a62737b5e212dc3a05bc0d8d8021"><param name="Name" value="General_Required"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#aba1b32996e149be04029a65d376ba6cd"><param name="Name" value="General_Slug"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a6ec11b3f85fa4b349a60e55eee584770"><param name="Name" value="General_Title"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#ab33d683b6f3317fc8b0d1815e63de121"><param name="Name" value="ResourceManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html"><param name="Name" value="CommentDocumention::Localization::Language"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a4331c2f8fe34b267edd1245d7ef19ff1"><param name="Name" value="TagListViewModel_DisplayName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_comment_documention_1_1_services.html"><param name="Name" value="CommentDocumention::Services"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interface_comment_documention_1_1_services_1_1_i_index_service.html"><param name="Name" value="CommentDocumention::Services::IIndexService"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_services_1_1_index_service.html"><param name="Name" value="CommentDocumention::Services::IndexService"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_comment_documention_1_1_view_model.html"><param name="Name" value="CommentDocumention::ViewModel"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_view_model_1_1_project_list_view_model.html"><param name="Name" value="CommentDocumention::ViewModel::ProjectListViewModel"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_view_model_1_1_project_view_model.html"><param name="Name" value="CommentDocumention::ViewModel::ProjectViewModel"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_view_model_1_1_project_vm.html"><param name="Name" value="CommentDocumention::ViewModel::ProjectVm"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html#a040403502f308a0233595588a16891e0"><param name="Name" value="CreationDate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a0907f320ec6889e6a8ab3beed01b4580"><param name="Name" value="Culture"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_d_b.html"><param name="Name" value="DB"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_app_db_context.html"><param name="Name" value="DB::AppDbContext"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_d_b_1_1_entities.html"><param name="Name" value="DB::Entities"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html"><param name="Name" value="DB::Entities::Project"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html"><param name="Name" value="DB::Entities::Project"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html#a040403502f308a0233595588a16891e0"><param name="Name" value="CreationDate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html"><param name="Name" value="DB::Entities::Project"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html#a2237e81c9d333f0758ec743f92dd8b58"><param name="Name" value="Description"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html"><param name="Name" value="DB::Entities::Project"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html#a332e4fd079fd3c41ff6f9f818414edd7"><param name="Name" value="Id"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html"><param name="Name" value="DB::Entities::Project"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html#a7e6ea2ade359ec336d1f7fb1c6686758"><param name="Name" value="Title"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_d_b_1_1_migrations.html"><param name="Name" value="DB::Migrations"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1_app_db_context_model_snapshot.html"><param name="Name" value="DB::Migrations::AppDbContextModelSnapshot"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html"><param name="Name" value="DB::Migrations::addProjects"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html"><param name="Name" value="DB::Migrations::addProjects"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#ae513badaa521c975598e76b1d24af474"><param name="Name" value="BuildTargetModel(ModelBuilder modelBuilder)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html"><param name="Name" value="DB::Migrations::addProjects"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#a515e111171171ba28eb9e5972f7bbd1a"><param name="Name" value="Down(MigrationBuilder migrationBuilder)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html"><param name="Name" value="DB::Migrations::addProjects"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#a543981a6affd1828808fe1f32b7c58b2"><param name="Name" value="Up(MigrationBuilder migrationBuilder)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html"><param name="Name" value="DB::Migrations::initial"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html"><param name="Name" value="DB::Migrations::initial"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#a267eaca67e781ab2b71e508badeedda0"><param name="Name" value="BuildTargetModel(ModelBuilder modelBuilder)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html"><param name="Name" value="DB::Migrations::initial"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#ad4a9c0d1df2aa65dfac7dad136e0a891"><param name="Name" value="Down(MigrationBuilder migrationBuilder)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html"><param name="Name" value="DB::Migrations::initial"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#a503f7ce31d22266930248d7b74672b74"><param name="Name" value="Up(MigrationBuilder migrationBuilder)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a195b75393b71cd17a91dbf0ff3ee7211"><param name="Name" value="Delete(int id)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html#a2237e81c9d333f0758ec743f92dd8b58"><param name="Name" value="Description"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#a515e111171171ba28eb9e5972f7bbd1a"><param name="Name" value="Down(MigrationBuilder migrationBuilder)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#a515e111171171ba28eb9e5972f7bbd1a"><param name="Name" value="DB::Migrations::addProjects"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#ad4a9c0d1df2aa65dfac7dad136e0a891"><param name="Name" value="Down(MigrationBuilder migrationBuilder)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#ad4a9c0d1df2aa65dfac7dad136e0a891"><param name="Name" value="DB::Migrations::initial"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a21dd6236a7a53c722a4f6cce0b6a5a32"><param name="Name" value="ExampleActionLikeGetProject()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a46b0749e6d1a7093bbcfad0cc8c4dd09"><param name="Name" value="General_CreationDate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a5007a6f0b664d90a33b7e28868700268"><param name="Name" value="General_Description"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a055fc291e043079650f74d2e6d7bec54"><param name="Name" value="General_PublishDate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a3087a62737b5e212dc3a05bc0d8d8021"><param name="Name" value="General_Required"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#aba1b32996e149be04029a65d376ba6cd"><param name="Name" value="General_Slug"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a6ec11b3f85fa4b349a60e55eee584770"><param name="Name" value="General_Title"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a7d65de1ac4daa571c98702b876ac8a08"><param name="Name" value="GetProjects()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html#a332e4fd079fd3c41ff6f9f818414edd7"><param name="Name" value="Id"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a3978335ab283cb3edf787b8bfda5c7a9"><param name="Name" value="PostProject(Project project)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a1c9f06ef7ec82a4aa4f6e40be47bbb12"><param name="Name" value="ProjectController(AppDbContext db)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a0e20078a525028146ddceac059fd6400"><param name="Name" value="PutProject(Project project)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#ab33d683b6f3317fc8b0d1815e63de121"><param name="Name" value="ResourceManager"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_site.html"><param name="Name" value="Site"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_site_1_1_api.html"><param name="Name" value="Site::Api"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_site_1_1_api_1_1_controllers.html"><param name="Name" value="Site::Api::Controllers"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html"><param name="Name" value="Site::Api::Controllers::ProjectController"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html"><param name="Name" value="Site::Api::Controllers::ProjectController"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a195b75393b71cd17a91dbf0ff3ee7211"><param name="Name" value="Delete(int id)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html"><param name="Name" value="Site::Api::Controllers::ProjectController"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a21dd6236a7a53c722a4f6cce0b6a5a32"><param name="Name" value="ExampleActionLikeGetProject()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html"><param name="Name" value="Site::Api::Controllers::ProjectController"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a7d65de1ac4daa571c98702b876ac8a08"><param name="Name" value="GetProjects()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html"><param name="Name" value="Site::Api::Controllers::ProjectController"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a3978335ab283cb3edf787b8bfda5c7a9"><param name="Name" value="PostProject(Project project)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html"><param name="Name" value="Site::Api::Controllers::ProjectController"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a1c9f06ef7ec82a4aa4f6e40be47bbb12"><param name="Name" value="ProjectController(AppDbContext db)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html"><param name="Name" value="Site::Api::Controllers::ProjectController"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_site_1_1_api_1_1_controllers_1_1_project_controller.html#a0e20078a525028146ddceac059fd6400"><param name="Name" value="PutProject(Project project)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_comment_documention_1_1_localization_1_1_language.html#a4331c2f8fe34b267edd1245d7ef19ff1"><param name="Name" value="TagListViewModel_DisplayName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_entities_1_1_project.html#a7e6ea2ade359ec336d1f7fb1c6686758"><param name="Name" value="Title"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#a543981a6affd1828808fe1f32b7c58b2"><param name="Name" value="Up(MigrationBuilder migrationBuilder)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1add_projects.html#a543981a6affd1828808fe1f32b7c58b2"><param name="Name" value="DB::Migrations::addProjects"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#a503f7ce31d22266930248d7b74672b74"><param name="Name" value="Up(MigrationBuilder migrationBuilder)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_d_b_1_1_migrations_1_1initial.html#a503f7ce31d22266930248d7b74672b74"><param name="Name" value="DB::Migrations::initial"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>

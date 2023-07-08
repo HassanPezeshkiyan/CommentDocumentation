@@ -1,0 +1,38 @@
+\doxysection{Program.\+cs}
+\hypertarget{_comment_documention_2_program_8cs_source}{}\label{_comment_documention_2_program_8cs_source}\index{E:/Personal/CSHARP/CommentDocumention/CommentDocumention/Program.cs@{E:/Personal/CSHARP/CommentDocumention/CommentDocumention/Program.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }AutoMapper;}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }CommentDocumention.Data;}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_comment_documention_1_1_dependency_injection}{CommentDocumention.DependencyInjection}};}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }Microsoft.EntityFrameworkCore;}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00005}00005\ }
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00006}00006\ var\ builder\ =\ WebApplication.CreateBuilder(args);}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00008}00008\ \textcolor{comment}{//\ Add\ services\ to\ the\ container.}}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00009}00009\ builder.Services.AddDependencies();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00010}00010\ builder.Services.AddControllers();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00011}00011\ \textcolor{comment}{//\ Learn\ more\ about\ configuring\ Swagger/OpenAPI\ at\ https://aka.ms/aspnetcore/swashbuckle}}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00012}00012\ builder.Services.AddEndpointsApiExplorer();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00013}00013\ builder.Services.AddSwaggerGen();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00014}00014\ builder.Services.AddDbContext<AppDbContext>(options\ =>}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00015}00015\ \ \ \ \ \ \ \ \ options.UseSqlServer(builder.Configuration.GetConnectionString(\textcolor{stringliteral}{"{}DefaultConnection"{}})));}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00017}00017\ var\ app\ =\ builder.Build();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00019}00019\ \textcolor{comment}{//\ Configure\ the\ HTTP\ request\ pipeline.}}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00020}00020\ \textcolor{keywordflow}{if}\ (app.Environment.IsDevelopment())}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00021}00021\ \{}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00022}00022\ \ \ \ \ app.UseSwagger();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00023}00023\ \ \ \ \ app.UseSwaggerUI();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00024}00024\ \}}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00026}00026\ app.UseHttpsRedirection();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00028}00028\ app.UseAuthorization();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00030}00030\ app.MapControllers();}
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{_comment_documention_2_program_8cs_source_l00032}00032\ app.Run();}
+
+\end{DoxyCode}

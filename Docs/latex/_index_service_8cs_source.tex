@@ -1,0 +1,36 @@
+\doxysection{Index\+Service.\+cs}
+\hypertarget{_index_service_8cs_source}{}\label{_index_service_8cs_source}\index{E:/Personal/CSHARP/CommentDocumention/CommentDocumention/Services/IndexService.cs@{E:/Personal/CSHARP/CommentDocumention/CommentDocumention/Services/IndexService.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_comment_documention_1_1_view_model}{CommentDocumention.ViewModel}};}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }Microsoft.AspNetCore.Mvc;}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }Microsoft.EntityFrameworkCore;}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }AutoMapper;}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }CommentDocumention.Data;}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00007}\mbox{\hyperlink{namespace_comment_documention_1_1_services}{00007}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_comment_documention_1_1_services}{CommentDocumention.Services}}}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00009}\mbox{\hyperlink{interface_comment_documention_1_1_services_1_1_i_index_service}{00009}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{interface\ }\mbox{\hyperlink{interface_comment_documention_1_1_services_1_1_i_index_service}{IIndexService}}}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00010}00010\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00011}00011\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00012}\mbox{\hyperlink{class_comment_documention_1_1_services_1_1_index_service}{00012}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_comment_documention_1_1_services_1_1_index_service}{IndexService}}\ :\ \mbox{\hyperlink{interface_comment_documention_1_1_services_1_1_i_index_service}{IIndexService}}}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00013}00013\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00014}00014\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ readonly\ AppDbContext\ \_db;}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00015}00015\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ readonly\ Mapper\ \_mapper;}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_comment_documention_1_1_services_1_1_index_service}{IndexService}}(AppDbContext\ db,\ AutoMapper.Mapper\ mapper)}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \ \ \ \ this.\_db\ =\ db;}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \ \ \ \ this.\_mapper\ =\ mapper;}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ List<ProjectListViewModel>\ GetProjects()}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \ \ \ \ var\ q\ =\ \_db.Projects.ToList().OrderByDescending(q\ =>\ q.CreationDate);}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \_mapper.Map<List<ProjectListViewModel>>(q);}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00029}00029\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_index_service_8cs_source_l00030}00030\ \}}
+
+\end{DoxyCode}

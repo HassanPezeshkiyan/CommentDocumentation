@@ -1,0 +1,174 @@
+\doxysection{Site.\+Api.\+Controllers.\+Project\+Controller Class Reference}
+\hypertarget{class_site_1_1_api_1_1_controllers_1_1_project_controller}{}\label{class_site_1_1_api_1_1_controllers_1_1_project_controller}\index{Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}}
+
+
+Class Project\+Controller Have End\+Points For Project Entity.  
+
+
+Inheritance diagram for Site.\+Api.\+Controllers.\+Project\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_site_1_1_api_1_1_controllers_1_1_project_controller}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_site_1_1_api_1_1_controllers_1_1_project_controller_a1c9f06ef7ec82a4aa4f6e40be47bbb12}{Project\+Controller}} (\mbox{\hyperlink{class_d_b_1_1_app_db_context}{App\+Db\+Context}} db)
+\begin{DoxyCompactList}\small\item\em This Method is constructor {\itshape db}  \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{class_site_1_1_api_1_1_controllers_1_1_project_controller_a7d65de1ac4daa571c98702b876ac8a08}{Get\+Projects}} ()
+\begin{DoxyCompactList}\small\item\em This Method is Get\+Projects End\+Point. \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{class_site_1_1_api_1_1_controllers_1_1_project_controller_a195b75393b71cd17a91dbf0ff3ee7211}{Delete}} (int id)
+\begin{DoxyCompactList}\small\item\em This Method is Delete End\+Point. \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{class_site_1_1_api_1_1_controllers_1_1_project_controller_a3978335ab283cb3edf787b8bfda5c7a9}{Post\+Project}} (\mbox{\hyperlink{class_d_b_1_1_entities_1_1_project}{Project}} project)
+\begin{DoxyCompactList}\small\item\em This Method is Post\+Project End\+Point that insert new project record. \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{class_site_1_1_api_1_1_controllers_1_1_project_controller_a0e20078a525028146ddceac059fd6400}{Put\+Project}} (\mbox{\hyperlink{class_d_b_1_1_entities_1_1_project}{Project}} project)
+\begin{DoxyCompactList}\small\item\em (An Action that handles HTTP PUT requests) puts a project. \end{DoxyCompactList}\item 
+IAction\+Result \mbox{\hyperlink{class_site_1_1_api_1_1_controllers_1_1_project_controller_a21dd6236a7a53c722a4f6cce0b6a5a32}{Example\+Action\+Like\+Get\+Project}} ()
+\begin{DoxyCompactList}\small\item\em Get\+Projects \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Project\+Controller Have End\+Points For Project Entity. 
+
+Definition at line \mbox{\hyperlink{_project_controller_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_project_controller_8cs_source}{Project\+Controller.\+cs}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_site_1_1_api_1_1_controllers_1_1_project_controller_a1c9f06ef7ec82a4aa4f6e40be47bbb12}\label{class_site_1_1_api_1_1_controllers_1_1_project_controller_a1c9f06ef7ec82a4aa4f6e40be47bbb12} 
+\index{Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}!ProjectController@{ProjectController}}
+\index{ProjectController@{ProjectController}!Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}}
+\doxysubsubsection{\texorpdfstring{ProjectController()}{ProjectController()}}
+{\footnotesize\ttfamily Site.\+Api.\+Controllers.\+Project\+Controller.\+Project\+Controller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_d_b_1_1_app_db_context}{App\+Db\+Context}}}]{db }\end{DoxyParamCaption})}
+
+
+
+This Method is constructor {\itshape db}  
+
+
+\begin{DoxyParams}{Parameters}
+{\em db} & injection of Db\+Context in controller\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_project_controller_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_project_controller_8cs_source}{Project\+Controller.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_site_1_1_api_1_1_controllers_1_1_project_controller_a195b75393b71cd17a91dbf0ff3ee7211}\label{class_site_1_1_api_1_1_controllers_1_1_project_controller_a195b75393b71cd17a91dbf0ff3ee7211} 
+\index{Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}!Delete@{Delete}}
+\index{Delete@{Delete}!Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}}
+\doxysubsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily IAction\+Result Site.\+Api.\+Controllers.\+Project\+Controller.\+Delete (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+This Method is Delete End\+Point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return Ok if project deleting correctly else Return Bad\+Request
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_project_controller_8cs_source_l00047}{47}} of file \mbox{\hyperlink{_project_controller_8cs_source}{Project\+Controller.\+cs}}.
+
+\Hypertarget{class_site_1_1_api_1_1_controllers_1_1_project_controller_a21dd6236a7a53c722a4f6cce0b6a5a32}\label{class_site_1_1_api_1_1_controllers_1_1_project_controller_a21dd6236a7a53c722a4f6cce0b6a5a32} 
+\index{Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}!ExampleActionLikeGetProject@{ExampleActionLikeGetProject}}
+\index{ExampleActionLikeGetProject@{ExampleActionLikeGetProject}!Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}}
+\doxysubsubsection{\texorpdfstring{ExampleActionLikeGetProject()}{ExampleActionLikeGetProject()}}
+{\footnotesize\ttfamily IAction\+Result Site.\+Api.\+Controllers.\+Project\+Controller.\+Example\+Action\+Like\+Get\+Project (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get\+Projects 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_project_controller_8cs_source_l00129}{129}} of file \mbox{\hyperlink{_project_controller_8cs_source}{Project\+Controller.\+cs}}.
+
+\Hypertarget{class_site_1_1_api_1_1_controllers_1_1_project_controller_a7d65de1ac4daa571c98702b876ac8a08}\label{class_site_1_1_api_1_1_controllers_1_1_project_controller_a7d65de1ac4daa571c98702b876ac8a08} 
+\index{Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}!GetProjects@{GetProjects}}
+\index{GetProjects@{GetProjects}!Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}}
+\doxysubsubsection{\texorpdfstring{GetProjects()}{GetProjects()}}
+{\footnotesize\ttfamily IAction\+Result Site.\+Api.\+Controllers.\+Project\+Controller.\+Get\+Projects (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This Method is Get\+Projects End\+Point. 
+
+\begin{DoxyReturn}{Returns}
+List Of Projects descending order by Creation\+Date Property of each Project Record
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_project_controller_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_project_controller_8cs_source}{Project\+Controller.\+cs}}.
+
+\Hypertarget{class_site_1_1_api_1_1_controllers_1_1_project_controller_a3978335ab283cb3edf787b8bfda5c7a9}\label{class_site_1_1_api_1_1_controllers_1_1_project_controller_a3978335ab283cb3edf787b8bfda5c7a9} 
+\index{Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}!PostProject@{PostProject}}
+\index{PostProject@{PostProject}!Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}}
+\doxysubsubsection{\texorpdfstring{PostProject()}{PostProject()}}
+{\footnotesize\ttfamily IAction\+Result Site.\+Api.\+Controllers.\+Project\+Controller.\+Post\+Project (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_d_b_1_1_entities_1_1_project}{Project}}}]{project }\end{DoxyParamCaption})}
+
+
+
+This Method is Post\+Project End\+Point that insert new project record. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em project} & instance of project entity\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Reference\+Exception} & if non-\/nullable value has not value null exception raise\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+Return Ok if project succfully insert into Db else Return Bad\+Request
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_project_controller_8cs_source_l00066}{66}} of file \mbox{\hyperlink{_project_controller_8cs_source}{Project\+Controller.\+cs}}.
+
+\Hypertarget{class_site_1_1_api_1_1_controllers_1_1_project_controller_a0e20078a525028146ddceac059fd6400}\label{class_site_1_1_api_1_1_controllers_1_1_project_controller_a0e20078a525028146ddceac059fd6400} 
+\index{Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}!PutProject@{PutProject}}
+\index{PutProject@{PutProject}!Site.Api.Controllers.ProjectController@{Site.Api.Controllers.ProjectController}}
+\doxysubsubsection{\texorpdfstring{PutProject()}{PutProject()}}
+{\footnotesize\ttfamily IAction\+Result Site.\+Api.\+Controllers.\+Project\+Controller.\+Put\+Project (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_d_b_1_1_entities_1_1_project}{Project}}}]{project }\end{DoxyParamCaption})}
+
+
+
+(An Action that handles HTTP PUT requests) puts a project. 
+
+Hp, 7/6/2023. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em project} & instance of project entity. \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+A response to return to the caller. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_project_controller_8cs_source_l00099}{99}} of file \mbox{\hyperlink{_project_controller_8cs_source}{Project\+Controller.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Personal/\+CSHARP/\+Comment\+Documention/\+Site.\+Api/\+Controllers/Project\+Controller.\+cs\end{DoxyCompactItemize}

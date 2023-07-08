@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Site.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Site.Api.Controllers.ProjectController">
+            <summary>
+            Class ProjectController Have EndPoints For Project Entity
+            </summary>
+        </member>
+        <member name="M:Site.Api.Controllers.ProjectController.#ctor(DB.AppDbContext)">
+            <summary>
+            This Method is constructor
+            <paramref name="db"/>
+            </summary>
+            <param name="db">injection of DbContext in controller</param>
+        </member>
+        <member name="M:Site.Api.Controllers.ProjectController.GetProjects">
+            <summary>
+            This Method is GetProjects EndPoint
+            </summary>
+            <returns>List Of Projects descending order by CreationDate Property of each Project Record</returns>
+        </member>
+        <member name="M:Site.Api.Controllers.ProjectController.Delete(System.Int32)">
+            <summary>
+            This Method is Delete EndPoint
+            </summary>
+            <param name="id"></param>
+            <returns>Return Ok if project deleting correctly else Return BadRequest</returns>
+        </member>
+        <member name="M:Site.Api.Controllers.ProjectController.PostProject(DB.Entities.Project)">
+            <summary>
+            This Method is PostProject EndPoint that insert new project record
+            </summary>
+            <param name="project">instance of project entity</param>
+            <exception cref="T:System.NullReferenceException">if non-nullable value has not value null exception raise</exception>
+            <returns>Return Ok if project succfully insert into Db else Return BadRequest</returns>
+        </member>
+        <member name="M:Site.Api.Controllers.ProjectController.PutProject(DB.Entities.Project)">
+             <summary>   (An Action that handles HTTP PUT requests) puts a project. </summary>
+            
+             <remarks>   Hp, 7/6/2023. </remarks>
+            
+             <param name="project">  instance of project entity. </param>
+            
+             <returns>   A response to return to the caller. </returns>
+        </member>
+        <member name="M:Site.Api.Controllers.ProjectController.ExampleActionLikeGetProject">
+            <summary>
+            <see cref="M:Site.Api.Controllers.ProjectController.GetProjects"/>
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,20 @@
+\doxysection{DI.\+cs}
+\hypertarget{_d_i_8cs_source}{}\label{_d_i_8cs_source}\index{E:/Personal/CSHARP/CommentDocumention/CommentDocumention/DependencyInjection/DI.cs@{E:/Personal/CSHARP/CommentDocumention/CommentDocumention/DependencyInjection/DI.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_comment_documention_1_1_services}{CommentDocumention.Services}};}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00003}00003\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_comment_documention_1_1_dependency_injection}{CommentDocumention.DependencyInjection}}}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00004}00004\ \{}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00005}00005\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keyword}{class\ }DI}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00006}00006\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00007}00007\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ IServiceCollection\ AddDependencies(\textcolor{keyword}{this}\ IServiceCollection\ services)}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00008}00008\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00009}00009\ \ \ \ \ \ \ \ \ \ \ \ \ services.AddAutoMapper(typeof(AppMappingConfig));}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00010}00010\ \ \ \ \ \ \ \ \ \ \ \ \ services.AddScoped<\mbox{\hyperlink{interface_comment_documention_1_1_services_1_1_i_index_service}{IIndexService}},\ \mbox{\hyperlink{class_comment_documention_1_1_services_1_1_index_service}{IndexService}}>();}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00011}00011\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ services;}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00012}00012\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00013}00013\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_d_i_8cs_source_l00014}00014\ \}}
+
+\end{DoxyCode}

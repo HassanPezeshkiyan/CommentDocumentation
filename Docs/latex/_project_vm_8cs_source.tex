@@ -1,0 +1,55 @@
+\doxysection{Project\+Vm.\+cs}
+\hypertarget{_project_vm_8cs_source}{}\label{_project_vm_8cs_source}\index{E:/Personal/CSHARP/CommentDocumention/CommentDocumention/ViewModel/ProjectVm.cs@{E:/Personal/CSHARP/CommentDocumention/CommentDocumention/ViewModel/ProjectVm.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_comment_documention_1_1_localization}{CommentDocumention.Localization}};}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.ComponentModel.DataAnnotations;}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00004}\mbox{\hyperlink{namespace_comment_documention_1_1_view_model}{00004}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_comment_documention_1_1_view_model}{CommentDocumention.ViewModel}}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00005}00005\ \{}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00006}\mbox{\hyperlink{class_comment_documention_1_1_view_model_1_1_project_vm}{00006}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_comment_documention_1_1_view_model_1_1_project_vm}{ProjectVm}}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00007}00007\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00008}00008\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00009}00009\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00010}00010\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00011}\mbox{\hyperlink{class_comment_documention_1_1_view_model_1_1_project_list_view_model}{00011}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_comment_documention_1_1_view_model_1_1_project_list_view_model}{ProjectListViewModel}}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00012}00012\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00013}00013\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{int}\ Id\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00015}00015\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ Title\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00016}00016\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ Description\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ DateTime\ CreationDate\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ [Display(ResourceType\ =\ typeof(\mbox{\hyperlink{class_comment_documention_1_1_localization_1_1_language}{Language}}),\ Name\ =\ \textcolor{stringliteral}{"{}General\_CreationDate"{}})]}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ NCreationDate}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{get}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ this.CreationDate.ToShortDateString();}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ DateTime?\ EndDate\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00031}00031\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00032}00032\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00033}\mbox{\hyperlink{class_comment_documention_1_1_view_model_1_1_project_view_model}{00033}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_comment_documention_1_1_view_model_1_1_project_view_model}{ProjectViewModel}}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00034}00034\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ [Display(ResourceType\ =\ typeof(\mbox{\hyperlink{class_comment_documention_1_1_localization_1_1_language}{Language}}),\ Name\ =\ \textcolor{stringliteral}{"{}General\_Title"{}})]}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ [Required(ErrorMessageResourceType\ =\ typeof(\mbox{\hyperlink{class_comment_documention_1_1_localization_1_1_language}{Language}}),\ ErrorMessageResourceName\ =\ \textcolor{stringliteral}{"{}General\_Required"{}})]}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ Title\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ [Display(ResourceType\ =\ typeof(\mbox{\hyperlink{class_comment_documention_1_1_localization_1_1_language}{Language}}),\ Name\ =\ \textcolor{stringliteral}{"{}General\_Description"{}})]}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ [Required(ErrorMessageResourceType\ =\ typeof(\mbox{\hyperlink{class_comment_documention_1_1_localization_1_1_language}{Language}}),\ ErrorMessageResourceName\ =\ \textcolor{stringliteral}{"{}General\_Required"{}})]}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ Description\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00042}00042\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ [Display(ResourceType\ =\ typeof(\mbox{\hyperlink{class_comment_documention_1_1_localization_1_1_language}{Language}}),\ Name\ =\ \textcolor{stringliteral}{"{}General\_CreationDate"{}})]}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ DateTime\ CreationDate\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00045}00045\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ DateTime?\ EndDate\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00047}00047\ }
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00048}00048\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_project_vm_8cs_source_l00049}00049\ \}}
+
+\end{DoxyCode}

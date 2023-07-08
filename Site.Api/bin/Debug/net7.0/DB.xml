@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DB</name>
+    </assembly>
+    <members>
+        <member name="T:DB.Entities.Project">
+            <summary>
+            Class <c>Project</c> Is Project Entity
+            </summary>
+        </member>
+        <member name="P:DB.Entities.Project.Id">
+            <value>Property <c>Id</c> represent the identity of prject record</value>
+        </member>
+        <member name="P:DB.Entities.Project.Title">
+            <value>Property <c>Title</c> represent the title of prject record</value>
+        </member>
+        <member name="P:DB.Entities.Project.Description">
+            <value>Property <c>Description</c> represent the description of prject record</value>
+        </member>
+        <member name="P:DB.Entities.Project.CreationDate">
+            <value>Property <c>CreationDate</c> represent the creation date time of prject record</value>
+        </member>
+        <member name="T:DB.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:DB.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DB.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DB.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:DB.Migrations.addProjects">
+            <inheritdoc />
+        </member>
+        <member name="M:DB.Migrations.addProjects.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DB.Migrations.addProjects.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DB.Migrations.addProjects.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
